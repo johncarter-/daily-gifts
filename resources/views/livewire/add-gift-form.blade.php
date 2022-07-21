@@ -1,7 +1,7 @@
 <div>
   <form class="flex items-start" wire:submit.prevent="saveGift">
     <input class="flex-1" type="text" wire:model.defer="newGift">
-    <button class="ml-4 bg-black p-2 text-white w-48" type="submit">Add</button>
+    <button class="w-48 p-2 ml-4 text-white bg-black" type="submit">Add</button>
   </form>
 
   <div>
@@ -13,7 +13,6 @@
       <div class="p-4 text-green-500">You've added a new gift.</div>
     @endif
   </div>
-
 
   <div class="flex items-start">
     <select class="w-64 mr-6">
